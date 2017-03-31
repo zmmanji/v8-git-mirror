@@ -26,8 +26,9 @@ To stay up to date, run
         git pull origin
         gclient sync
 
-For fetching all branches, add the following into your remote
-configuration in `.git/config`:
+
+To Fetch all the branches, include the following into your remote configuration file named `.git/config`:
+
 
         fetch = +refs/branch-heads/*:refs/remotes/branch-heads/*
         fetch = +refs/tags/*:refs/tags/*
